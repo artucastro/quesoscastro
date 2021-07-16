@@ -1,0 +1,250 @@
+.bodyInd
+.headerInd{
+    background-color: gray;
+    align-content: center; 
+}
+.logoLC {
+    height: 30px;
+}
+.mainInd {
+    align-items: center;
+    margin: auto;
+    background-color: gray;
+}
+.carousel-item {
+    align-content: center; 
+}
+.footerInd {
+    background-color: #4d4d52;
+    align-items: left;
+}
+.image__1 {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    display: grid;
+    border-radius: 15px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body,
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alata', sans-serif;
+}
+
+section {
+  height: 100vh;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 1s;
+}
+
+.content > div {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
+  grid-area: 2 / 2 / 5 / 5;
+}
+
+.gray {
+  background-color: #333;
+}
+
+.blue {
+  background-color: #0e1424;
+}
+
+.darkgray {
+  background-color: #333f44;
+}
+
+.red {
+    background-color: #F3635E;
+}
+
+.fadeTop {
+  opacity: 0; 
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.fadeRight {
+  opacity: 0;
+  transform: translate(10vh, 0vh);
+  transition: all 1s;
+}
+
+.fadeLeft {
+  opacity: 0;
+  transform: translate(-10vh, 0vh);
+  transition: all 1s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.logoLosC {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+.social-icons
+{
+  text-align:right
+}
+.social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+
+@media (max-width:767px)
+{
+  
+  .social-icons
+  {
+    text-align:center
+  }
+}
+
+.social-icons{
+  height: 70px;
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+  margin-top: 10px;
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.instagram:hover
+{
+  background-color:#2A5B83
+}
+.social-icons a.envelope:hover
+{
+  background-color:#C30907
+}
+.social-icons a.whatsapp:hover
+{
+  background-color:#4dc247
+}
+.social-icons a.phone:hover
+{
+  background-color:#3a19f7
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+.far, .fab, .fas{
+  font-size: 20px;
+}
+.footer-row{
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
+
+.bsim{
+  text-decoration: none;
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  transition:all .2s linear
+
+}
+.bsim:hover{
+  text-decoration: none;
+  background-color:#73c229
+}
+
+.container {
+  background-color: black;
+}

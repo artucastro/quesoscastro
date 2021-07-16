@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="iniciar.css">
+    <link rel="stylesheet" href="index.html" >
+    <title>Los Castro Crear Cuenta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body class="bodyInd">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <header class="headerInd">
+        <div class="text-center" class="logoLC">
+            <img src="fotos/LogoLosCastro.jpeg" class="img-fluid" alt="Responsive image">
+        </div>
+    </header>
+    <main>
+        <!-- multistep form -->
+        <form id="msform">
+            <!-- progressbar -->
+            <ul id="progressbar">
+              <li class="active">Paso 1</li>
+              <li>Paso 2</li>
+            </ul>
+            <!-- fieldsets -->
+            <fieldset>
+              <h2 class="fs-title">Crear Cuenta</h2>
+              <h3 class="fs-subtitle">Paso 1</h3>
+              <input type="text" name="email" id="mail" placeholder="Email" />
+              <input type="password" name="pass" id="cont" placeholder="Password" />
+              <input type="password" name="cpass" id="cCont" placeholder="Confirm Password" />
+              <input type="button" name="next" id="sig" class="next action-button" value="Siguiente" />
+            </fieldset>
+            <fieldset>
+              <h2 class="fs-title">Crear Cuenta</h2>
+              <h3 class="fs-subtitle">Paso 2</h3>
+              <input type="text" name="fname" id="nomb" placeholder="First Name" />
+              <input type="text" name="lname" id="ape" placeholder="Last Name" />
+              <input type="number" name="phone" id="tel" placeholder="Phone" />
+              <textarea name="address" id="address" placeholder="Address"></textarea>
+              <input type="button" name="previous" id="volv" class="previous action-button" value="Volver" />
+              <input type="button" name="submit" id="env" class="submit action-button" value="Enviar" />
+            </fieldset>
+          </form>
+    </main>
+    <footer class="container">
+      <div class="row footer-row">
+        <a href="index.html" class="bsim">Volver</a>
+        <ul class="social-icons">
+          <li><a class="envelope" href="#"><i class="far fa-envelope" id="gmailE"></i></a></li>
+          <li><a class="facebook" href="#"><i class="fab fa-facebook-square" id="faceE"></i></a></li>
+          <li><a class="phone" href="#"><i class="fas fa-phone-square-alt" id="telE"></a></i>
+          <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp-square" id="wppE"></i></a></li>
+          <li><a class="instagram" href="#"><i class="fab fa-instagram" id="igE"></i></a></li>
+        </ul>
+    </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script defer src="iniciar.js"> 
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
